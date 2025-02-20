@@ -85,13 +85,6 @@ for (let i = 0; i < 3; i++) {
   const DEFAULT_SETTINGS = { theme: 'dark', fontSize: 16 };
   ```
 
-## 疑問点と今後の調査項目
-
-- [ ] `const`で宣言した配列・オブジェクトの深いイミュータビリティを効率的に実現する方法
-- [ ] ブロックスコープの変数とガベージコレクションの関係
-- [ ] TypeScriptでの`const`と`readonly`の違いについて調査
-- [ ] Reactのuseステートフックと変数宣言の関係
-
 ## リンク集
 
 - [MDN - let](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/let)
